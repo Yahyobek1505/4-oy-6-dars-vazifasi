@@ -338,3 +338,30 @@
 //   }
 // }
 // console.log(kvadrat());
+
+/* <======================> 6-Masala <=====================>*/
+// let firstNumber = 87;
+// let secondNumber = 68;
+// function someNumber() {
+//   let twosecond = secondNumber % 10;
+//   let onefirst = Math.trunc(secondNumber / 10  );
+//   console.log(onefirst);
+//   console.log(twosecond);
+//   let resultFirst = onefirst * twosecond;
+//   console.log(resultFirst);
+
+// let second = firstNumber% 10;
+// let first = Math.trunc(firstNumber / 10  );
+// let result = first * second;
+// console.log(first);
+// console.log(second);
+// console.log(result);
+// let kattasi;
+// if (result > resultFirst) {
+//   kattasi = result
+// } else {
+//   kattasi = resultFirst
+// }
+// return kattasi;
+// }
+// console.log("eng kattasi " + someNumber());
