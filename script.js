@@ -316,7 +316,7 @@
 
 // for (let i = 1; i <= number; i++) {
 //   if (number % i === 0) {
-//     counter++;  
+//     counter++;
 //     console.log(i);
 //   }
 // }
@@ -330,11 +330,11 @@
 
 // function kvadrat() {
 //   let anyNumber = 2;
-//   if (anyNumber % 3 == 0 && anyNumber % 7 == 0) {
+//   if (anyNumber % 3 == 0 && anyNumber % 5 == 0) {
 //     return anyNumber ** 2;
 //   } else {
 //     return anyNumber ** 3;
-    
+
 //   }
 // }
 // console.log(kvadrat());
@@ -365,3 +365,20 @@
 // return kattasi;
 // }
 // console.log("eng kattasi " + someNumber());
+
+/* <======================> 7-Masala <=====================>*/
+
+function tubSon(anyNumber) {
+      let counter = 0;
+      for (let i = 1; i <= anyNumber; i++) {
+        if (anyNumber % i == 0 ) {
+          counter++;
+        } 
+      }
+  if (counter == 2) {
+    return "Tub son";
+  } else {
+    return "Tub son emas";
+  }
+}
+console.log(tubSon(10));
